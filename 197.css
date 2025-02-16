@@ -1,0 +1,37 @@
+div {
+    width: 180px;
+    height: 180px;
+    background-color: #654430; 
+    position: relative;
+
+}
+
+div::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #f7ebcc; 
+    top: 90px;
+    left: 90px;
+    background-image: 
+        radial-gradient(circle at center, #5f5d5e 20px, transparent 20px),
+        radial-gradient(circle at center, #252324 23px, transparent 23px),
+        radial-gradient(circle at center, #5f5d5e 28px, transparent 28px);
+    
+}
+
+div::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-color: #f7ebcc; 
+    top: 0px;
+    left: 0px;
+    background-image: 
+        radial-gradient(circle at center, #5f5d5e 20px, transparent 20px),
+        radial-gradient(circle at center, #252324 23px, transparent 23px),
+        radial-gradient(circle at center, #5f5d5e 28px, transparent 28px);
+
+}

@@ -1,0 +1,32 @@
+div {
+    /*Ваш код*/
+  width: 192px;
+  height: 192px;
+  border-radius: 36px;
+  background: linear-gradient(145deg, #fcdd2e, #fcb600);
+  position: relative;
+}
+
+div:before {
+    /*Ваш код*/
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, #f5f4f0 50%, #000 50%);
+  width: 192px;
+  height: 96px;
+  bottom: 0px;
+  border-radius: 0px 0px 36px 36px;
+  
+}
+
+div:after {
+    /*Ваш код*/
+  content:"";
+  position:absolute;
+  top: 96px;
+  left: 0px;
+  background-color: #f5f4f0;
+  width: 96px;
+  height: 7px;
+  background: linear-gradient(178deg, rgba(0, 0, 0, 0.18), transparent);
+}
